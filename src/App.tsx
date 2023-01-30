@@ -1,8 +1,6 @@
 import { useState, useEffect } from "react";
-import "./App.css";
 
 import "./App.css";
-
 
 const App: React.FC = () => {
   const [todos, setTodos] = useState<{ text: string; completed: boolean }[]>(
